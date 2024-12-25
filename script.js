@@ -85,7 +85,7 @@ document.getElementById("loginForm")?.addEventListener("submit", (e) => {
     if (user) {
         alert("Login successful!");
         saveLoggedInUser(user);
-        window.location.href = "tracker.html";
+        window.location.href = "expance.html";
     } else {
         alert("Invalid email or password.");
     }
